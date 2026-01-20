@@ -1,0 +1,18 @@
+# Ignore Stata data files
+*.dta
+*.sav
+*.por
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore output clutter
+*.csv
+*.xlsx
+
+# OS / editor junk
+.DS_Store
+Thumbs.db

@@ -3,7 +3,11 @@
 ## Overview
 Honours econometrics capstone analyzing the relationship between alcohol consumption patterns and self-reported mental health outcomes using Canadian survey microdata (CCHS 2019–2020).
 
-This repo is structured to demonstrate reproducible applied research (cleaning → modelling → outputs) for employers.
+This repo is structured to demonstrate reproducible applied research (cleaning → modelling → outputs).
+
+## Final Report
+The complete honours capstone paper is available here:  
+https://github.com/elmercadito/capstone-mental-health-alcohol/blob/main/docs/Final_Report.pdf
 
 ## Data Access Note
 Due to Statistics Canada microdata restrictions, raw CCHS files are not included in this repository.

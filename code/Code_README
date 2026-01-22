@@ -1,0 +1,25 @@
+## Code Overview
+
+This folder contains the Stata do-files used to construct the analytic sample,
+produce descriptive statistics, and estimate the main econometric models for the
+Honours Capstone Project using CCHS 2019–2020 PUMF data.
+
+### `summary_stats.do`
+Constructs the cleaned analytic sample from the CCHS 2019–2020 PUMF by applying
+sample restrictions (adults aged 18+, valid mental health responses, nonmissing
+alcohol-use measures), recoding the mental health outcome variable, and generating
+descriptive and summary statistics used to characterize the sample in the paper.
+
+The do-file sets the working directory, loads the microdata, defines the final
+estimation sample, and produces summary outputs for key demographic, health,
+and alcohol-consumption variables.
+
+### `Regression.do`
+Implements the main econometric analysis using weighted logistic regression models.
+The do-file constructs a binary mental health outcome variable, applies survey
+weights, and estimates models examining the association between alcohol consumption
+and mental health outcomes while controlling for demographic and socioeconomic
+characteristics.
+
+This file contains the core inferential results discussed in the capstone paper,
+including the primary regression specifications.
